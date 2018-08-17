@@ -1,11 +1,11 @@
-# def oxford_comma(array)
-#   if array.count <= 2
-#     array.join(" and ")
-#   else
-#     last_element = array.pop
-#     array.join(", ") << ", and " << last_element
-#   end
-# end
+def oxford_comma(array)
+  if array.count <= 2
+    array.join(" and ")
+  else
+    last_element = array.pop
+    array.join(", ") << ", and " << last_element
+  end
+end
 
 # Flatiron refactor
 
@@ -17,8 +17,3 @@
 #   end
 #   array.join(", ")
 # end
-
-
-def oxford_comma(array)
-  array.join(" and ")
-end
